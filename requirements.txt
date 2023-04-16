@@ -1,2 +1,2 @@
 streamlit
-st-ant-menu
+st-ant-menu==0.0.2

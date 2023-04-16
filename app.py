@@ -6,7 +6,6 @@ from st_ant_menu import st_ant_menu
 st.set_page_config(layout="wide")
 
 
-#Das parsen von der Menüstruktur funktioniert noch nicht  - es wird das beispiel direkt aus der .tsx Datei genommen
 MenuItems = [
   {
     "label": "Navigation One",
@@ -84,6 +83,8 @@ with st.sidebar:
 
 st.write("Selected: ", selected)
 
+
+st.title("Code")
 
 st.code("""
 

@@ -6,6 +6,7 @@ from st_ant_menu import st_ant_menu
 st.set_page_config(layout="wide")
 
 
+
 MenuItems = [
   {
     "label": "Navigation One",
@@ -76,8 +77,9 @@ MenuItems = [
 
 
 with st.sidebar:
+  multiple = st.checkbox("multiple")
   st.write("Test")
-  selected = st_ant_menu(menu_data=MenuItems,multiple=False)
+  selected = st_ant_menu(menu_data=MenuItems,multiple=multiple)
 
   st.write("Test")
 
